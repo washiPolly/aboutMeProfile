@@ -21,10 +21,12 @@ body {
 }
 
 a{
-  color: #cccccc;
+  color: #777777;
   padding: 30px 30px 30px 30px;
   text-decoration: none;
   text-align: center;
+  display: block;
+
 }
 
 .navbar-brand{
@@ -46,6 +48,7 @@ a{
 
 #AboutMe{
     background-color: white;
+    margin-bottom: 100px;
 }
 
 .no-gutters {
@@ -62,6 +65,7 @@ a{
 .card-body{
     margin-top: 30px;
     margin-left: -80px !important;
+    padding: 20px;
 }
 
 footer {
@@ -75,14 +79,18 @@ footer {
     padding: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
+   
     }
 
 @media screen and (max-width: 640px){
+
     #AboutMe{
         width: 90%;
+        margin-bottom: 200px;
     }  
     .card-text{
         margin-left: 100px !important;
+        
     }
     #navBar {   
         flex-direction: row;
@@ -100,6 +108,14 @@ footer {
     padding-left: 10px;
     }
 
+    .card{
+        padding-bottom: 10px;
+    }
+
+    footer{
+        padding: 30px;
+    
+    }
    
 }
 @media screen and (max-width: 1500px){
