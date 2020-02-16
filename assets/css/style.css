@@ -22,11 +22,16 @@ body {
 
 a{
   color: #777777;
-  padding: 30px 30px 30px 30px;
+  padding: 30px 5px 30px 5px;
   text-decoration: none;
   text-align: center;
   display: block;
 
+}
+
+.spacers{
+    padding: 0px  0px  0px  0px;
+    
 }
 
 .navbar-brand{
@@ -94,15 +99,34 @@ footer {
     }
     #navBar {   
         flex-direction: row;
+        
       }
+
     .navbar-brand{
         background: #4aaaa5;
         color: #ffffff;
         font-size: 30px;
         width: 100%;
-        text-align: center;
         
     }
+
+    #navSub{
+        margin-top: 0px;
+        padding-left: 25%;
+        background-color: #ffffff;
+        border-style: none none solid;
+        border-color: #cccccc;
+        height: 50px;
+    
+    }
+
+    a{
+        padding: 12px 0px 30px 0px;
+        margin-left: 0px;
+        margin-right: 0px;      
+        
+    }
+
     #bio-image{
     margin: 30px auto;
     padding-left: 10px;
