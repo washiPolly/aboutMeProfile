@@ -6,48 +6,49 @@
     <title>About Me - Polly</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!--Site Header-->
         
-        <nav class="navbar navbar-expand-lg navbar-inverse navbar-dark bg-dark">
-            <div class="container-fluid">
+        <nav id="navBar" class="navbar navbar-expand-lg">
+            <div class="container">
                 <div class="navbar-header">
                   <a class="navbar-brand" href="#">Polly Su</a>
                 </div>
-                <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="#">About</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                 </ul>
+                
+                <div class="nav navbar-nav navbar-right">
+                    <a class="active" href="#">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                
               </div>
             </nav>
   
 
-       
         <!--About Me section-->
        
-        <div class="container" style="border:1px solid #cecece;">
+        <div id="AboutMe" class="container" style="border:1px solid #cecece;">
         <div class="row col-md-10">
-            <div class="card border-dark">
+            <div class="card border-dark mb-3">
             <h1 id="about-me">About Me</h1>
            
                 <div style='border-bottom:3px solid #ccc; col-md-10'></div>
                 
             <!--Image and Description Section-->
-            <div class="card border-dark mb-3" style="max-width: 960px;">
+            <div class="card border-dark mb-3">
                 <div class="row"> 
                     <div class="col-md-4"> 
-                <img class="img-responsive" src="assets/images/profile.jpg" alt="profile picture" style="width:70%">
+                <img id=bio-image class="img-responsive" src="assets/images/profile.jpg" alt="profile picture" style="width:70%">
                     </div>
-                    
+                <div class="card-text">    
                 <div class="col-md-8">    
                 <div class="card-body">
                   <h5 class="card-title">Hello World! &#128516</h5>
-                  <p class="card-text">Thank you for visiting my very first webpage. This is very exciting to be able to learn web development from scratch. 
+                  <p class="text-justify">Thank you for visiting my very first webpage. This is very exciting to be able to learn web development from scratch. 
                 I know it will take a lot hard work and persistence to complete the course 
                 but I look forward to all the new skills I will gain!
             <br> 
@@ -60,7 +61,7 @@
             <br> 
                 In my spare time I like to draw, watch movies, and play badminton with friends. 
                 </p>
-
+            </div>
 
                 
 
