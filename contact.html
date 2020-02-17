@@ -4,47 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me - Polly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!--Site Header-->
-    <header>
-        <div class="navBar">
-            <ul id="nav">
-                <h1><li id="main-name">Polly Su</li></h1>
-                <li id="main-contact">Contact</li>
-                <li id="dividers">|</li>
-                <li id="main-portfolio"><a href="portfolio.html">Portfolio</a></li>
-                <li id="dividers">|</li>
-                <li id="main-about"><a href="index.html">About</a></li>
-  
-            </ul id="nav">
-        </div>
-    </header>
+    <div class="row">
+        <nav id="navBar" class="navbar navbar-expand-md navbar navbar-expand-lg ">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><a class="navbar-brand" href="#">Polly Su</a></div>
+                </div>
+                <div class="container">
+                <div id="navSub" class="nav navbar-nav navbar-right">
+                    <div class="col-xs-2 col-md-3"><a href="index.html">About</a></div>
+                    <div id="spacers1" class="col-xs-1 col-md-1"><a href="#">|</a></div>
+                    <div class="col-xs-2 col-md-3"><a href="portfolio.html">Portfolio</a></div>
+                    <div id="spacers2" class="col-xs-1 col-md-1"><a href="#">|</a></div>
+                    <div class="col-xs-2 col-md-3"><a class="active" href="#">Contact</a></div>
+                </div>
+                </div>
+              </div>
+            </nav>
+    </div>
 
         <div class="background">
             <!--division where background image starts-->
-            <div class="sectionform">
-                <h1 id="about-me">Contact</h1>
+            <div id="AboutMe" class="container" style="border:1px solid #cecece;">
+                <div class="row col-md-12">
+                    <div class="card border-dark mb-3">
+                    <h1 id="about-me">Contact</h1>
+                   
+                        <div style='border-bottom:3px solid #ccc; col-md-10'></div>
 
-                <form action="#" method="post">
-                Name:<br>
-                <input type="text" class="nameBox" name="name" value="Polly Su">
-                <br>
-                Email:<br>
-                <input type="text" class="emailBox" name="email" value="pollylsu@gmail.com">
-                <br>
-                    <form>
-                    Message:<br>
-                        <textarea class="messageBox" name="name">
-                        </textarea>    
-                    </form>
-                <br><br>
-                <input type="button" class="submitButton" value="Submit">
-                </form> 
+                        <form>
+                            <div class="form-group">
+                              <label for="formName">Name</label>
+                              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Polly Su">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="formEmail">Email</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="pollylsu@gmail.com">
+                              </div>
+
+                            <div class="form-group">
+                              <label for="formTextBox">Message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                          </form>
             </div>
-            <footer class="footer">Copyright © 2020</footer>    
+            </div>
+
+
+            <footer class="footer mt-auto py-3 navbar-fixed-bottom">
+                <div class="footerContainer">
+                    <span class="text-center">Copyright © 2020</span>
+                </div>
+            </footer>    
         </div>
 
   
