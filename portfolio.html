@@ -4,54 +4,72 @@
 <head>
     <meta charset="UTF-8">
     <title>About Me - Polly</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 
 <body>
     <!--Site Header-->
-    <header>
-        <div class="navBar">
-            <ul id="nav">
-                <h1><li id="main-name">Polly Su</a></li></h1>
-                <li id="main-contact"><a href="contact.html">Contact</a></li>
-                <li id="dividers">|</li>
-                <li id="main-portfolio">Portfolio</li>
-                <li id="dividers">|</li>
-                <li id="main-about"><a href="index.html">About</a></li>
-  
-            </ul id="nav">
-        </div>
-    </header>
+    <div class="row">
+        <nav id="navBar" class="navbar navbar-expand-md navbar navbar-expand-lg ">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"><a class="navbar-brand" href="#">Polly Su</a></div>
+                </div>
+                <div class="container">
+                <div id="navSub" class="nav navbar-nav navbar-right">
+                    <div class="col-xs-2 col-md-3"><a href="index.html">About</a></div>
+                    <div id="spacers1" class="col-xs-1 col-md-1"><a href="#">|</a></div>
+                    <div class="col-xs-2 col-md-3"><a href="portfolio.html">Portfolio</a></div>
+                    <div id="spacers2" class="col-xs-1 col-md-1"><a href="#">|</a></div>
+                    <div class="col-xs-2 col-md-3"><a class="active" href="#">Contact</a></div>
+                </div>
+                </div>
+              </div>
+            </nav>
+    </div>
 
-    <div class="portfolio-sectionform">
-        <h1 id="about-me">Portfolio</h1>
-            <div class="portfolio-images">
+    <div id="AboutMe" class="container" style="border:1px solid #cecece;">
+        <div class="row col-md-12">
+            <div class="card border-dark mb-3">
+            <h1 id="about-me">Portfolio</h1>
+           
+                <div id="bar" style='border-bottom:3px solid #ccc; col-md-10'></div>
+
+    <div class="portfolio-images">
                     
                 <div class="relative">
-                    <img id="img-hangman" src="assets/images/img-hangman.jpg" alt="hangman image">
-                    <div class="portfolioLabels"> <a class="labels" href="#">Hangman</a></div> 
+                    <img class="img-fluid" id="img-hangman" src="assets/images/img-hangman.jpg" alt="hangman image">
+                    <!-- <div class="portfolioLabels"> <a class="labels" href="#">Hangman</a></div>  -->
                 </div>    
                     
-                    <img id="img-rpg" src="assets/images/img-rpggame.jpg" alt="rpg game image">
-                    <div class="portfolioLabels"> <a class="labels" href="#">RPG Game</a></div> 
+                    <img class="img-fluid" id="img-rpg" src="assets/images/img-rpggame.jpg" alt="rpg game image">
+                    <!-- <div class="portfolioLabels"> <a class="labels" href="#">RPG Game</a></div>  -->
                    
                 <div class="relative"> 
-                    <img id="img-rutgers" src="assets/images/img-rutgersinfowidget.jpg" alt="rutger info widget image">
-                    <div class="portfolioLabels"> <a class="labels" href="#">Rutgers Info Widget</a></div> 
+                    <img class="img-fluid" id="img-rutgers" src="assets/images/img-rutgersinfowidget.jpg" alt="rutger info widget image">
+                    <!-- <div class="portfolioLabels"> <a class="labels" href="#">Rutgers Info Widget</a></div>  -->
                 </div>    
                    
-                    <img id="img-trivia" src="assets/images/img-triviagame.jpg" alt="trivia game image">
-                    <div class="portfolioLabels"> <a class="labels" href="#">Triva Game</a></div> 
+                    <img class="img-fluid" id="img-trivia" src="assets/images/img-triviagame.jpg" alt="trivia game image">
+                    <!-- <div class="portfolioLabels"> <a class="labels" href="#">Triva Game</a></div>  -->
                    
-                <div class="relative">
+                <div class="img-fluid" class="relative">
                     <img id="img-rock" src="assets/images/img-rockpaperscissors.jpg" alt="rock paper scissors image">
-                    <div class="portfolioLabels"> <a class="labels" href="#">Rock Paper Scissors</a></div> 
+                    <!-- <div class="portfolioLabels"> <a class="labels" href="#">Rock Paper Scissors</a></div>  -->
                 </div>
 
             </div>
-            
+          </div>  
     </div>
-    <footer class="footer">Copyright © 2020</footer>
+</div>
+    <footer class="footer mt-auto py-3 navbar-fixed-bottom">
+        <div class="footerContainer">
+            <span class="text-center">Copyright © 2020</span>
+        </div>
+    </footer>  
     </div>
     
  
