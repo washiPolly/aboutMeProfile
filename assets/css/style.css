@@ -135,9 +135,9 @@ footer {
 }
 
 /* Portfolio images */
-img{
-    width: 210px;
-    height: 200px;
+.img-fluid{
+    width: 250px;
+    height: 225px;
     margin: 15px;
     float: left;
 }
@@ -215,6 +215,10 @@ img{
             margin-right: auto;
             margin-left: 40px;
         }
+        .img-fluid{
+            margin-left: 10%;
+            margin-bottom: 25px;
+            } 
     }  
     
      
@@ -271,7 +275,10 @@ img{
         padding-bottom: 10px;
     }
 
-    
+    .img-fluid{
+    margin-left: 25%;
+    margin-bottom: 25px;
+    } 
 }
 
 
