@@ -61,6 +61,9 @@ a:hover {
     font-weight: bold;
 }
 
+#bar{
+    margin: 15px 15px 15px 15px; 
+}
 #about-me{
     color: #4aaaa5;
     font-size: 30px;
@@ -114,10 +117,23 @@ footer {
 
 /* Contact Page CSS */
 .form-group{
-    margin-top: 15px;
-    margin-bottom: 15px;
-
+    margin: 15px 15px 15px 15px;
 }
+
+.btn-primary{
+   
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
     @media screen and (min-width: 769px) and (max-width: 980px){
         #AboutMe{
             margin-left: 5%;
